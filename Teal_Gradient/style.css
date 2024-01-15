@@ -1,0 +1,15 @@
+
+/* Variable with global scope #37465b,#212b38*/
+
+/* Color stop is where the transition starts */
+:root{ --background_gradient:linear-gradient(#726eff,#08c6ab 45%,#37465b 70%,#212b38 80% );} 
+
+html{
+  background:url("/assets/images/back_pattern.png"),var(--background_gradient) no-repeat center fixed;
+  background-size: cover;
+}
+
+body { 
+
+  }
+
